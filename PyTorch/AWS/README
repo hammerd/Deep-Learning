@@ -1,0 +1,7 @@
+The Udacity repo contains many examples & tutorials related to the Boston Housing Prediction example. The Udacity repo was cloned into an AWS notebook instance named deployment-instance by (1) starting deployment-instance inside AWS SageMaker, (2) clicking Open Jupyter Notebook, and (3) clicking on the 'new' dropdown menu and select 'terminal'. By default, the working directory of the terminal instance is the home directory, however, the Jupyter notebook hub's root directory is under 'SageMaker'. Enter the appropriate directory and clone the repository inside Terminal as follows:
+
+cd SageMaker
+git clone https://github.com/udacity/sagemaker-deployment.git
+exit
+
+and then close the terminal window. The notebook(s) in this directory are included here only when updates are required for operation. For example, notebooks in the Udacity repo are based on SageMaker versions below 2.0.  SageMaker v2.0+ has rendered some function calls obsolete such as get_uri_image() and inputs to the Estimator() function.
