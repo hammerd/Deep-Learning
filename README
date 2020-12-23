@@ -1,1 +1,3 @@
-Repositories include many examples and completed projects based on Udacity's Deep Learning program (see LICENSE file inside each directory for distribution rights)
+Repositories include many examples and completed projects based on Udacity's Deep Learning program (see LICENSE file inside each directory for distribution rights).
+
+Work was performed primarily in PyTorch environment often embedded in Udacity workspaces with access to GPUs for training, and also using AWS services (SageMaker, Lambda, etc.). Keras and TensorFlow examples are included here for completeness but no effort has been made to manage and execute sample problems.
